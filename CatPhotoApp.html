@@ -1,17 +1,10 @@
-<!--link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <style>
-  .red-text {
-    color: red;
-  }
-
+  
   h2 {
     font-family: Lobster, Monospace;
-  }
-
-  p {
-    font-size: 16px;
-    font-family: Monospace;
   }
 
   .thick-green-border {
@@ -21,36 +14,34 @@
     border-radius: 50%;
   }
 
-  .smaller-image {
-    width: 100px;
-  }
-  
-  .silver-background{
-    background-color: silver;
-  }
-
-  #cat-photo-form{
-    background-color: green;
-  }
 </style>
 
 <div class="container-fluid">
-  <h2 class="red-text text-center">CatPhotoApp</h2>
-  <p>Click here for <a href="#">cat photos</a>.</p>
-  <a href="#"></a> <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
-  <a href="#"><img class="img-responsive" src="https://bit.ly/fcc-running-cats"></a>
+  <div class="row">
+    <div class="col-xs-8">
+      <h2 class="text-primary text-center">CatPhotoApp</h2>
+    </div>
+    <div class="col-xs-4">
+      <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+    </div>
+  </div>
+  <img src="https://bit.ly/fcc-running-cats" class="img-responsive" alt="Three kittens running towards the camera. ">
   <div class="row">
     <div class="col-xs-4">
-      <button class="btn btn-block btn-primary">Like</button></div>
-    <div class="col-xs-4">
-      <button class="btn btn-block btn-info">Info</button>
+      <button class="btn btn-block btn-primary">
+        <i class="fa fa-thumbs-up"></i>
+        Like
+      </button>
     </div>
     <div class="col-xs-4">
-      <button class="btn btn-block btn-danger">Delete</button>
+      <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i>Info</button>
     </div>
-  </div>  
-  <div class="silver-background">
-    <p>Things cats love:</p>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
+    </div>
+  </div>
+  <div>
+    <p>Things cats <span class="text-danger">love:</span></p>
     <ul>
         <li>Carinho</li>
         <li>Comida</li>
@@ -63,13 +54,17 @@
       <li>Comer ração</li>
     </ol>
   </div>
-  <form action="/submit-cat-photo" id="cat-photo-form">
-      <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
-      <label><input type="radio" name="indoor-outdoor">Outdoor</label>
-      <label><input type="checkbox" name="personality" checked> Carinhoso</label>
-      <label><input type="checkbox" name="personality"> Esperto</label>
-      <label><input type="checkbox" name="personality"> Fujão</label>
-      <input type="text" required placeholder="cat photo URL">
-      <button type="submit">Submit</button>
+  <form action="/submit-cat-photo">
+    <div class="row">
+      <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Indoor</label></div>
+      <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Outdoor</label></div>
+      <div class="row">
+        <div class="col-xs-4"><label><input type="checkbox" name="personality"> Loving</label></div>
+        <div class="col-xs-4"><label><input type="checkbox" name="personality"> Lazy</label></div>
+        <div class="col-xs-4"><label><input type="checkbox" name="personality"> Crazy</label></div>
+      </div>
+    </div>
+    <input class="form-control" type="text" placeholder="cat photo URL" required>
+    <button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
   </form>
-</div>  
+</div>

@@ -6,7 +6,7 @@ Curso de desenvolvimento web na freecodecamp.org
 Andamento
 ---------
 
-Último Challenge - https://www.freecodecamp.org/challenges/use-the-bootstrap-grid-to-put-elements-side-by-side
+Último Challenge - https://www.freecodecamp.org/challenges/line-up-form-elements-responsively-with-bootstrap
 
 License
 -------
