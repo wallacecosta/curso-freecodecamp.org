@@ -6,7 +6,7 @@ Curso de desenvolvimento web na freecodecamp.org
 Andamento
 ---------
 
-#####Front End Development Certification
+##### Front End Development Certification
 - [x] HTML5 and CSS
 - [ ] Responsive Design with Bootstrap
 - [ ] jQuery
