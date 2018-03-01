@@ -1,4 +1,5 @@
 <!--link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <style>
   .red-text {
     color: red;
@@ -23,22 +24,52 @@
   .smaller-image {
     width: 100px;
   }
+  
+  .silver-background{
+    background-color: silver;
+  }
+
+  #cat-photo-form{
+    background-color: green;
+  }
 </style>
 
-<h2 class="red-text">CatPhotoApp</h2>
-<p>Click here for <a href="#">cat photos</a>.</p>
-<a href="#"></a> <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
-<p>Things cats love:</p>
-<ul>
-    <li>Carinho</li>
-    <li>Comida</li>
-    <li>Bola</li>
-</ul>
-<p>Top 3 things cats hate:</p>
-<ol>
-  <li>Tomar Banho</li>
-  <li>Ficar preso</li>
-  <li>Comer ração</li>
-</ol>
-<input type="text">
-  
+<div class="container-fluid">
+  <h2 class="red-text text-center">CatPhotoApp</h2>
+  <p>Click here for <a href="#">cat photos</a>.</p>
+  <a href="#"></a> <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+  <a href="#"><img class="img-responsive" src="https://bit.ly/fcc-running-cats"></a>
+  <div class="row">
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-primary">Like</button></div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-info">Info</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-danger">Delete</button>
+    </div>
+  </div>  
+  <div class="silver-background">
+    <p>Things cats love:</p>
+    <ul>
+        <li>Carinho</li>
+        <li>Comida</li>
+        <li>Bola</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>Tomar Banho</li>
+      <li>Ficar preso</li>
+      <li>Comer ração</li>
+    </ol>
+  </div>
+  <form action="/submit-cat-photo" id="cat-photo-form">
+      <label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
+      <label><input type="radio" name="indoor-outdoor">Outdoor</label>
+      <label><input type="checkbox" name="personality" checked> Carinhoso</label>
+      <label><input type="checkbox" name="personality"> Esperto</label>
+      <label><input type="checkbox" name="personality"> Fujão</label>
+      <input type="text" required placeholder="cat photo URL">
+      <button type="submit">Submit</button>
+  </form>
+</div>  
