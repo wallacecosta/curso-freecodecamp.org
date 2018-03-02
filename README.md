@@ -8,7 +8,7 @@ Andamento
 
 ##### Front End Development Certification
 - [x] HTML5 and CSS
-- [ ] Responsive Design with Bootstrap
+- [x] Responsive Design with Bootstrap
 - [ ] jQuery
 - [ ] Basic Front End Development Projects
 - [ ] Basic JavaScript
@@ -22,7 +22,7 @@ Andamento
 - [ ] Claim Your Front End Development Certificate
 
 
-Último Challenge - https://www.freecodecamp.org/challenges/line-up-form-elements-responsively-with-bootstrap
+Next Challenge - https://www.freecodecamp.org/challenges/target-html-elements-with-selectors-using-jquery
 
 License
 -------
@@ -30,4 +30,3 @@ License
 MIT License
 
 Copyright (c) 2018 Wallace Costa
-
