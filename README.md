@@ -9,7 +9,7 @@ Andamento
 ##### Front End Development Certification
 - [x] HTML5 and CSS
 - [x] Responsive Design with Bootstrap
-- [ ] jQuery
+- [x] jQuery
 - [ ] Basic Front End Development Projects
 - [ ] Basic JavaScript
 - [ ] Object Oriented and Functional Programming
@@ -22,7 +22,7 @@ Andamento
 - [ ] Claim Your Front End Development Certificate
 
 
-Next Challenge - https://www.freecodecamp.org/challenges/target-html-elements-with-selectors-using-jquery
+Next Challenge - https://www.freecodecamp.org/challenges/get-set-for-our-front-end-development-projects
 
 License
 -------
