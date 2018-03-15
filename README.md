@@ -22,7 +22,7 @@ Andamento
 - [ ] Claim Your Front End Development Certificate
 
 
-Next Challenge - https://www.freecodecamp.org/challenges/get-set-for-our-front-end-development-projects
+Next Challenge - https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
 
 License
 -------
