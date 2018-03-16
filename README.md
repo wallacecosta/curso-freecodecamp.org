@@ -1,4 +1,4 @@
-# Curso devenvolvimento Wev na Free Code Camp
+# Curso de devenvolvimento Web na Free Code Camp
 Curso de desenvolvimento web na freecodecamp.org
 
 ![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
@@ -22,14 +22,14 @@ Andamento
 - [ ] Claim Your Front End Development Certificate
 
 
-Next Challenge - https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
+Next Challenge - [Build a Personal Portfolio Webpage](https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage)
 
 Projects
 --------
 
 ##### Build a tribute page:
 
-https://wallacecosta.github.io/curso-freecodecamp.org/tribute-page.html
+[Tribute page for Bob Marley](https://wallacecosta.github.io/curso-freecodecamp.org/tribute-page.html)
 
 ##### Build a Personal Portfolio Webpage:
 
