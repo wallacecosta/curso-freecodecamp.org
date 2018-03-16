@@ -24,6 +24,17 @@ Andamento
 
 Next Challenge - https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
 
+Projects
+--------
+
+##### Build a tribute page:
+
+https://wallacecosta.github.io/curso-freecodecamp.org/tribute-page.html
+
+##### Build a Personal Portfolio Webpage:
+
+In progress
+
 License
 -------
 
