@@ -26,10 +26,13 @@ Next Challenge - [Build a Personal Portfolio Webpage](https://www.freecodecamp.o
 
 Projects
 --------
+##### Build a app CatPhotoApp:
+
+[App CatPhotoApp](https://wallacecosta.github.io/curso-freecodecamp.org/Build-CatPhotoApp/CatPhotoApp.html)
 
 ##### Build a tribute page:
 
-[Tribute page for Bob Marley](https://wallacecosta.github.io/curso-freecodecamp.org/tribute-page.html)
+[Tribute page for Bob Marley](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Tribute/tribute-page.html)
 
 ##### Build a Personal Portfolio Webpage:
 
