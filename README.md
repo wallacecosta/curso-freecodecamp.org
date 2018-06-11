@@ -6,6 +6,8 @@ Curso de desenvolvimento web na freecodecamp.org
 Andamento
 ---------
 
+[Perfil do freeCodeCamp](https://www.freecodecamp.org/wallacecosta)
+
 ##### Responsive Web Design Certification (300 hours)
 - [x] Basic HTML and HTML5
 - [x] Basic CSS
