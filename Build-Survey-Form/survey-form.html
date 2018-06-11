@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container col-md-12">
+            <div class="col-md-4"></div>
+            <div class="container col-md-4">
+                <h1 id="title">Formulário de pesquisa</h1>
+            </div>
+        </div>
+        <div class="container col-md-12">
+                <div class="col-md-4"></div>
+            <div class="container col-md-4">
+                <p id="description">Formulário criado para o projeto Build a Survey Form do curso freeCodeCamp.</p>
+            </div>
+        </div>
+        <div class="container col-md-12">
+            <div class="col-md-4"></div>
+            <div class="container table-bordered col-md-4">
+                <form action="" id="survey-form">
+                    <div class="form-group">
+                        <br>
+                        <label for="name" id="name-label">Nome:</label>
+                        <input type="text" name="name" id="name" required placeholder="Fulano de Tal" maxlength="40">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="email-label">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="nome@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" name="endereco" id="endereco" required placeholder="Avenida Brasil">
+                    </div>
+                    <div class="form-group">
+                        <label for="number" id="number-label">Numero:</label>
+                        <input type="number" name="number" id="number" required placeholder="1500" min="1" max="9999">
+                    </div>
+                    <div class="form-group">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" name="bairro" id="bairro" required placeholder="Barra da Tijuca" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidade" id="cidade" required placeholder="Rio de Janeiro" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="estado">Estado:</label>
+                        <select name="estado" id="dropdown" class="dropdown" required>
+                            <option disabled selected value="">Opções:</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="es">Espirito Santo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sexo">Sexo:</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radio-buttons" value="masc" checked required>
+                        <label for="fem">Feminino</label>
+                        <input type="radio" name="radio-buttons" value="fem">
+                    </div>
+                    <div class="form-group">
+                        <label>Escolaridade:</label>
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="escolaridade" value="fundamental"> Ensino Fundamental
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="escolaridade" value="medio"> Ensino Médio
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="escolaridade" value="superior"> Superior
+                            </label>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <label for="comentario">Comentários</label>
+                    </div>
+                    <div class="container">
+                        <textarea name="comentario" id="comentario" rows="3" required></textarea>
+                    </div>
+                    <div class="container">
+                        <br>
+                        <button type="submit" id="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
