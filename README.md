@@ -14,7 +14,7 @@ Andamento
 - [x] Responsive Web Design Principles
 - [x] CSS Flexbox
 - [x] CSS Grid
-- [*] Responsive Web Design Projects:
+- [ ] Responsive Web Design Projects:
     - [x] Build a Tribute Page
     - [x] Build a Survey Form
     - [ ] Build a Product Landing Page
