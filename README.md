@@ -20,7 +20,6 @@ Rio de Janeiro, Brasil
 -------------
 
 ## Andamento
----------
 
 ##### Responsive Web Design Certification (300 hours)
 - [x] Basic HTML and HTML5
