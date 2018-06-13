@@ -3,8 +3,23 @@ Curso de desenvolvimento web na freecodecamp.org
 
 ![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-Andamento
----------
+-------
+
+<img src="https://avatars2.githubusercontent.com/u/25742247?v=4" height="80px" width="80px">
+
+### Wallace Costa
+
+Rio de Janeiro, Brasil
+
+[Perfil do freeCodeCamp](https://www.freecodecamp.org/wallacecosta)
+
+[GitHub](https://github.com/wallacecosta)
+
+[Linkedin](https://www.linkedin.com/in/wallacecosta/)
+
+-------------
+
+## Andamento
 
 ##### Responsive Web Design Certification (300 hours)
 - [x] Basic HTML and HTML5
@@ -67,8 +82,11 @@ Andamento
 - [ ] Rosetta Code
 - [ ] Project Euler
 
+---------------
+
 Projects
 --------
+
 ##### Build a app CatPhotoApp:
 
 [App CatPhotoApp](https://wallacecosta.github.io/curso-freecodecamp.org/Build-CatPhotoApp/CatPhotoApp.html)
@@ -79,6 +97,8 @@ Projects
 
 ##### Build a Survey Form
 [Survey Form](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Survey-Form/survey-form.html)
+
+--------------------------
 
 License
 -------
