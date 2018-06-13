@@ -1,0 +1,13 @@
+#TopFooter {
+    background-color: #FFFF00;
+}
+
+.sombra {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sombraFooter {
+    box-shadow: 20px 10px 0 rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
