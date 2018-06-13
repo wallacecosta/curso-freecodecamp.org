@@ -10,53 +10,105 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 </head>
 
 <body>
-        <header class="bs-docs-nav navbar navbar-static-top">
-                <div class="container-fluid sombra" id="TopFooter">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                            aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="../" class="navbar-brand">Qual é o seu sonho?</a>
-                    </div>
-                    <nav class="collapse navbar-collapse" id="bs-navbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="" onclick="">Opção 1</a>
-                            </li>
-                            <li>
-                                <a href="" onclick="">Opção 2</a>
-                            </li>
-                            <li>
-                                <a href="" onclick="">Opção 3</a>
-                            </li>
-                            <li>
-                                <a href="" onclick="">Opção 4</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <header>
+        <div class="bs-docs-nav navbar navbar-fixed-top" id="header">
+            <div class="container-fluid sombra" id="TopFooter">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="product-page.html" class="navbar-brand">
+                        <img alt="Brand" src="https://assets.ubuntu.com/v1/488a496b-pictogram-rate-orange.svg" width="40px" height="30px" id="header-img">
+                    </a>
                 </div>
-            </header>
-    <main class=" text-center " style="margin-top:50px">
-        <div class="container ">
-            <h1>Qual é o seu sonho?</h1>
-            <p>Melhores imãs você encontra aqui!!!</p>
+                <nav class="collapse navbar-collapse" id="nav-bar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#descricao" onclick="" class="nav-link">Descrição</a>
+                        </li>
+                        <li>
+                            <a href="#sonho" onclick="" class="nav-link">Sonho</a>
+                        </li>
+                        <li>
+                            <a href="#video" onclick="" class="nav-link">Video</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container text-center topo">
+        <div>
+            <h1 class="topo" id="descricao">Qual é o seu sonho?</h1>
+        </div>
+        <div class="text-justify topo">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec eros vel dolor luctus mattis. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Suspendisse blandit justo sit amet ultrices euismod. Cras quis mollis
+                    neque. Aliquam rutrum velit vitae cursus varius. Mauris eu tempor eros.</p>
+                <p>Nullam sit amet est ac dui fermentum facilisis quis eu leo. Aliquam aliquet felis arcu, vel porta sapien
+                    fringilla quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget sapien et metus varius
+                    posuere. Phasellus viverra, urna a semper ultricies, odio nulla maximus risus, eu varius velit ligula
+                    sit amet nibh. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in
+                    faucibus. Sed bibendum neque quis finibus blandit. Aliquam eu turpis est.</p>
+                <p>Maecenas arcu orci, rutrum vel vehicula quis, tincidunt vel diam. Suspendisse ornare ac urna eget venenatis.
+                    Morbi nec tortor pellentesque, fringilla nunc ut, congue arcu. Suspendisse vestibulum feugiat neque.
+                    Mauris condimentum velit ut commodo vestibulum. Aliquam erat volutpat. Integer faucibus, risus nec vulputate
+                    aliquet, mi purus efficitur tellus, a pulvinar urna massa eget sem. Praesent varius ex tortor, eu porttitor
+                    nibh sodales vel. Sed commodo maximus lectus ac malesuada.</p>
+            </div>
+        </div>
+        <div class="text-center" id="sonho">
+            <img src="./img/ima.jpg " alt="Qual é o seu sonho?" width="300px " height="300px " class="sombra topo">
         </div>
         <br>
-        <div class="container ">
-            <img src="./img/ima.jpg " alt=" " width="300px " height="300px " class="sombra ">
+        <div class="text-justify">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec eros vel dolor luctus mattis. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Suspendisse blandit justo sit amet ultrices euismod. Cras quis mollis
+                    neque. Aliquam rutrum velit vitae cursus varius. Mauris eu tempor eros.</p>
+                <p>Nullam sit amet est ac dui fermentum facilisis quis eu leo. Aliquam aliquet felis arcu, vel porta sapien
+                    fringilla quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget sapien et metus varius
+                    posuere. Phasellus viverra, urna a semper ultricies, odio nulla maximus risus, eu varius velit ligula
+                    sit amet nibh. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in
+                    faucibus. Sed bibendum neque quis finibus blandit. Aliquam eu turpis est.</p>
+                <p>Maecenas arcu orci, rutrum vel vehicula quis, tincidunt vel diam. Suspendisse ornare ac urna eget venenatis.
+                    Morbi nec tortor pellentesque, fringilla nunc ut, congue arcu. Suspendisse vestibulum feugiat neque.
+                    Mauris condimentum velit ut commodo vestibulum. Aliquam erat volutpat. Integer faucibus, risus nec vulputate
+                    aliquet, mi purus efficitur tellus, a pulvinar urna massa eget sem. Praesent varius ex tortor, eu porttitor
+                    nibh sodales vel. Sed commodo maximus lectus ac malesuada.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mK_Hz3P2rJw" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen class="topo" id="video"></iframe>
+        </div>
+        <br>
+        <div class="topo">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <div>
+                    <label for="email">Cadastre seu email:</label>
+                    <input type="email" name="email" id="email" placeholder="fulano@email.com">
+                    <input type="submit" class="btn btn-primary" value="Cadastrar" id="submit">
+                </div>
+            </form>
         </div>
     </main>
-    <footer class="container-fluid navbar navbar-fixed-bottom">
-        <br>
+    <footer class="container-fluid navbar navbar-bottom topo">
         <p class="text-center ">
-            Feito por Wallace Costa <br> Contato: <a href="mailto:wallacecosta@gmail.com "> wallacecosta@gmail.com</a>
+            Feito por Wallace Costa
+            <br> Contato:
+            <a href="mailto:wallacecosta@gmail.com "> wallacecosta@gmail.com</a>
         </p>
     </footer>
 </body>

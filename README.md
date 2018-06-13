@@ -8,7 +8,7 @@ Curso de desenvolvimento web na freecodecamp.org
 <img src="https://avatars2.githubusercontent.com/u/25742247?v=4" height="80px" width="80px">
 
 ### Wallace Costa
-
+-------
 Rio de Janeiro, Brasil
 
 [Perfil do freeCodeCamp](https://www.freecodecamp.org/wallacecosta)
@@ -97,6 +97,9 @@ Projects
 
 ##### Build a Survey Form
 [Survey Form](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Survey-Form/survey-form.html)
+
+##### Build a Product Landing Page (Em Andamento)
+[Product Landing Page](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Product-Landing-Page/product-page.html)
 
 --------------------------
 
