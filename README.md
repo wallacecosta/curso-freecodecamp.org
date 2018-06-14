@@ -32,7 +32,7 @@ Rio de Janeiro, Brasil
 - [ ] Responsive Web Design Projects:
     - [x] Build a Tribute Page
     - [x] Build a Survey Form
-    - [ ] Build a Product Landing Page
+    - [x] Build a Product Landing Page
     - [ ] Build a Technical Documentation Page
     - [ ] Build a Personal Portfolio Webpage
 
@@ -98,7 +98,7 @@ Projects
 ##### Build a Survey Form
 [Survey Form](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Survey-Form/survey-form.html)
 
-##### Build a Product Landing Page (Em Andamento)
+##### Build a Product Landing Page
 [Product Landing Page](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Product-Landing-Page/product-page.html)
 
 --------------------------
