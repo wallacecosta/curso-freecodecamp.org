@@ -1,3 +1,5 @@
+<img src="https://travis-ci.org/wallacecosta/curso-freecodecamp.org.svg?branch=master">
+
 # Curso de devenvolvimento Web na Free Code Camp
 Curso de desenvolvimento web na freecodecamp.org
 
