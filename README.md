@@ -1,7 +1,5 @@
-<img src="https://travis-ci.org/wallacecosta/curso-freecodecamp.org.svg?branch=master">
-
-# Curso de devenvolvimento Web na Free Code Camp
-Curso de desenvolvimento web na freecodecamp.org
+# Web Development Course at Free Code Camp
+Web Development Course at freecodecamp.org
 
 ![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
@@ -13,7 +11,7 @@ Curso de desenvolvimento web na freecodecamp.org
 -------
 Rio de Janeiro, Brasil
 
-[Perfil do freeCodeCamp](https://www.freecodecamp.org/wallacecosta)
+[FreeCodeCamp's profile](https://www.freecodecamp.org/wallacecosta)
 
 [GitHub](https://github.com/wallacecosta)
 
@@ -21,7 +19,7 @@ Rio de Janeiro, Brasil
 
 -------------
 
-## Andamento
+## Progress
 
 ##### Responsive Web Design Certification (300 hours)
 - [x] Basic HTML and HTML5
@@ -35,7 +33,7 @@ Rio de Janeiro, Brasil
     - [x] Build a Tribute Page
     - [x] Build a Survey Form
     - [x] Build a Product Landing Page
-    - [ ] Build a Technical Documentation Page
+    - [x] Build a Technical Documentation Page
     - [ ] Build a Personal Portfolio Webpage
 
 ##### Javascript Algorithms And Data Structures Certification (300 hours)
@@ -102,6 +100,9 @@ Projects
 
 ##### Build a Product Landing Page
 [Product Landing Page](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Product-Landing-Page/product-page.html)
+
+##### Build a Technical Documentation
+ [Technical Documentation](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Technical-Documentation/technical-documentation.html)
 
 --------------------------
 
