@@ -79,6 +79,13 @@ body {
         overflow-x: hidden;
     } 
 
+    #navbar a:hover {
+        position: relative;
+        margin-left: 0;
+        width: auto;
+        height: 75px;
+    }
+
     #main-doc {
         position: relative;
         margin-left: 0;
