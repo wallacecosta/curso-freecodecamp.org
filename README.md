@@ -105,7 +105,7 @@ Projects
  [Technical Documentation](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Technical-Documentation/technical-documentation.html)
 
 ##### Build a Portifolio
- [Technical Documentation](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Portfolio/Portfolio.html)
+ [Build a Portifolio](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Portfolio/Portfolio.html)
 
 --------------------------
 
