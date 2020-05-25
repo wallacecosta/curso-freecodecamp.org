@@ -29,12 +29,12 @@ Rio de Janeiro, Brasil
 - [x] Responsive Web Design Principles
 - [x] CSS Flexbox
 - [x] CSS Grid
-- [ ] Responsive Web Design Projects:
+- [x] Responsive Web Design Projects:
     - [x] Build a Tribute Page
     - [x] Build a Survey Form
     - [x] Build a Product Landing Page
     - [x] Build a Technical Documentation Page
-    - [ ] Build a Personal Portfolio Webpage
+    - [x] Build a Personal Portfolio Webpage
 
 ##### Javascript Algorithms And Data Structures Certification (300 hours)
 - [ ] Basic JavaScript
@@ -103,6 +103,9 @@ Projects
 
 ##### Build a Technical Documentation
  [Technical Documentation](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Technical-Documentation/technical-documentation.html)
+
+##### Build a Portifolio
+ [Technical Documentation](https://wallacecosta.github.io/curso-freecodecamp.org/Build-Portfolio/Portfolio.html)
 
 --------------------------
 
