@@ -50,8 +50,8 @@ body {
 }
 
 #welcome-section { 
-    margin-top: 100px;
-    background-color: black;  
+    background-color: black; 
+    width:100px; 
     height: 100vh;
 }
 
@@ -64,11 +64,14 @@ body {
 }
 
 section {
-    margin-top: 20px;
     text-align: center;
     color: white;
     padding-top: 120px;
     padding-bottom: 120px;
     font-size: 30px;
+}
+
+#main-doc {
+    margin-top:20px;
 }
 
