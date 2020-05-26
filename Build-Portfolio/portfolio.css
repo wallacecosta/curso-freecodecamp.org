@@ -111,10 +111,8 @@ section {
         margin-left: auto;
     }
 
-    #welcome-section {
-        width: 100%;
-        height: 100vh;
-        font-size: medium;
+    p { 
+        font-size: 18px;
     }
 
     .img-profile {
