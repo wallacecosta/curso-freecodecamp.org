@@ -98,7 +98,7 @@ section {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     
-    #navbar header {
+    .oculta-mobile {
         display: none;
     }
 
@@ -126,6 +126,14 @@ section {
         margin-top: 10px;
         margin-left: 10px;
         display: block;
+    }
+
+    #contact {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        position: fixed;   
     }
 
   }
