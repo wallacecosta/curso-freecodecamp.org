@@ -37,7 +37,7 @@ Rio de Janeiro, Brasil
     - [x] Build a Personal Portfolio Webpage
 
 ##### Javascript Algorithms And Data Structures Certification (300 hours)
-- [ ] Basic JavaScript
+- [x] Basic JavaScript
 - [ ] ES6
 - [ ] Regular Expressions
 - [ ] Debugging
