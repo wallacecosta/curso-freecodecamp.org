@@ -40,7 +40,7 @@ Rio de Janeiro, Brasil
 - [x] Basic JavaScript
 - [x] ES6
 - [ ] Regular Expressions
-- [ ] Debugging
+- [x] Debugging
 - [ ] Basic Data Structures
 - [ ] Basic Algorithm Scripting
 - [ ] Object Oriented Programming
